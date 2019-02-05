@@ -1,0 +1,106 @@
+body {
+  color: #5c4d4d;
+  margin: 0;
+  text-align: center;
+  font-family: "Comic Sans MS", Helvetica, sans-serif;
+  font-size: 1.35rem;
+}
+h1 {
+  color: #915b4a;
+  font-size: 3.5rem;
+  width: 40%;
+  margin: 70px auto 0 auto;
+}
+h2 {
+  color: #a96851;
+  font-size: 1.8rem;
+  font-weight: normal;
+  padding: 10px;
+}
+h3 {
+  color: #a96851;
+  font-size: 2.2rem;
+  font-weight: normal;
+}
+h4 {
+  color: #a96851;
+  font-size: 1.7rem;
+  font-weight: normal;
+  margin: 10px auto;
+}
+hr {
+  border: dotted #f9f3e6 4px;
+  border-bottom: none;
+  width: 4%;
+}
+a {
+  color: #a96851;
+  text-decoration: none;
+}
+a:hover {
+  color: #f9f3e6;
+}
+.round {
+  border-radius: 150px;
+  width: 15%;
+}
+.top-container {
+  background-color: #f9f3e6;
+  padding: 20px;
+  position: relative;
+  padding-top: 100px;
+}
+.middle-container {
+  margin: 40px 0;
+
+}
+.bottom-container {
+  background-color: #5c4d4d;
+  padding: 20px 0 20px;
+  color: #f9f3e6;
+  font-size: 1rem;
+}
+.intro {
+  margin: 0 auto 100px auto;
+  width: 50%;
+}
+.skill-row {
+  width: 50%;
+  margin: 0 auto 100px auto;
+  text-align: left;
+}
+.discript {
+  margin: 0 auto;
+  line-height: 2;
+}
+.top-cloud {
+  position: absolute;
+  right: 350px;
+  top: 100px;
+}
+.bottom-cloud {
+  position: absolute;
+  left: 350px;
+  bottom: 400px;
+}
+.code-img {
+  width: 25%;
+  border-radius: 150px;
+  float: left;
+  margin-right: 20px;
+}
+.anim-img {
+  width: 25%;
+  border-radius: 150px;
+  float: right;
+  margin-right: 20px;
+}
+.portrait-img {
+  width: 25%;
+  border-radius: 150px;
+  float: left;
+  margin-right: 20px;
+}
+.btn {
+  color: #a96851;
+}

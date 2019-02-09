@@ -35,10 +35,12 @@ hr {
 }
 a {
   color: #a96851;
-  text-decoration: none;
 }
-a:hover {
+.footer-link:hover {
   color: #f9f3e6;
+}
+.footer-link {
+  text-decoration: none;
 }
 .round {
   border-radius: 150px;
@@ -101,6 +103,30 @@ a:hover {
   float: left;
   margin-right: 20px;
 }
+
 .btn {
-  color: #a96851;
+  background: #a96851;
+  background-image: -webkit-linear-gradient(top, #a96851, #a96851);
+  background-image: -moz-linear-gradient(top, #c47541, #a96851);
+  background-image: -ms-linear-gradient(top, #a96851, #a96851);
+  background-image: -o-linear-gradient(top, #a96851, #a96851);
+  background-image: linear-gradient(to bottom, #a96851, #a96851);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #e3bc8d;
+  background-image: -webkit-linear-gradient(top, #e3bc8d, #a96851);
+  background-image: -moz-linear-gradient(top, #e3bc8d, #a96851);
+  background-image: -ms-linear-gradient(top, #e3bc8d, #a96851);
+  background-image: -o-linear-gradient(top, #e3bc8d, #a96851);
+  background-image: linear-gradient(to bottom, #e3bc8d, #a96851);
+  text-decoration: none;
 }
